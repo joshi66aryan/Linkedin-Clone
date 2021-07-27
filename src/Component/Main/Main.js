@@ -236,7 +236,7 @@ function Main(props) {
             {props.user && props.user.photoURL ? (
               <img src={props.user.photoURL} alt="" />
             ) : (
-              <img src="/Images/user.svg" alt="" />
+              <img src="Images/user.svg" alt="" />
             )}
             <button
               onClick={handleClick}
@@ -247,19 +247,19 @@ function Main(props) {
           </div>
           <div>
             <button>
-              <img src="/Images/photo-icon.svg" alt="" />
+              <img src="Images/photo-icon.svg" alt="" />
               <span>Photo</span>
             </button>
             <button>
-              <img src="/Images/video-icon.svg" alt="" />
+              <img src="Images/video-icon.svg" alt="" />
               <span>video</span>
             </button>
             <button>
-              <img src="/Images/event-icon.svg" alt="" />
+              <img src="Images/event-icon.svg" alt="" />
               <span>event</span>
             </button>
             <button>
-              <img src="/Images/article-icon.svg" alt="" />
+              <img src="Images/article-icon.svg" alt="" />
               <span>Write article</span>
             </button>
           </div>
@@ -291,7 +291,7 @@ function Main(props) {
                       </div>
                     </a>
                     <button>
-                      <img src="/images/ellipsis.svg" alt="" />
+                      <img src="Images/ellipsis.svg" alt="" />
                     </button>
                   </SharedActor>
                   <Description>{articles.description}</Description>
@@ -312,8 +312,8 @@ function Main(props) {
                   <SocialCount>
                     <li>
                       <button>
-                        <img src="/images/like.svg" alt="" />
-                        <img src="/images/clap.svg" alt="" />
+                        <img src="Images/like.svg" alt="" />
+                        <img src="Images/clap.svg" alt="" />
                         <span>75</span>
                       </button>
                     </li>
@@ -323,19 +323,19 @@ function Main(props) {
                   </SocialCount>
                   <SocialAction>
                     <button>
-                      <img src="/images/likedIcon.svg" alt="" />
+                      <img src="Images/likedIcon.svg" alt="" />
                       <span>Like</span>
                     </button>
                     <button>
-                      <img src="/images/comment.svg" alt="" />
+                      <img src="Images/comment.svg" alt="" />
                       <span>Comments</span>
                     </button>
                     <button>
-                      <img src="/images/share.svg" alt="" />
+                      <img src="Images/share.svg" alt="" />
                       <span>Share</span>
                     </button>
                     <button>
-                      <img src="/images/send.svg" alt="" />
+                      <img src="Images/send.svg" alt="" />
                       <span>Send</span>
                     </button>
                   </SocialAction>

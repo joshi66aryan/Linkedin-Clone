@@ -80,7 +80,7 @@ const Rightside = (props) => {
       <Followcard>
         <Title>
           <h2> Add to your feed </h2>
-          <img src="/Images/feed-icon.svg" alt="" />
+          <img src="Images/feed-icon.svg" alt="" />
         </Title>
         <FeedList>
           <li>
@@ -104,12 +104,12 @@ const Rightside = (props) => {
         </FeedList>
         <Recommendation>
           View all the recommendation
-          <img src="/Images/right-icon.svg" alt="" />
+          <img src="Images/right-icon.svg" alt="" />
         </Recommendation>
       </Followcard>
       <BannerCard>
         <img
-          src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"
+          src={"https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"}
           alt=""
         />
       </BannerCard>
