@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { connect } from "react-redux"
+import { connect } from "react-redux";
 const Leftside = (props) => {
   return (
     <Container>
@@ -8,7 +8,9 @@ const Leftside = (props) => {
           <CardBackground />
           <a>
             <Photo />
-            <Link>Welcome, {props.user ? props.user.displayName : "there"}</Link>
+            <Link>
+              Welcome, {props.user ? props.user.displayName : "there"}
+            </Link>
           </a>
           <a>
             <AddPhotoText>Add a photo</AddPhotoText>
@@ -20,12 +22,12 @@ const Leftside = (props) => {
               <span>Connections</span>
               <span>Grow your network</span>
             </div>
-            <img src="/images/widget-icon.svg" alt="" />
+            <img src="/Images/widget-icon.svg" alt="" />
           </a>
         </Widget>
         <Item>
           <span>
-            <img src="/images/item-icon.svg" alt="" />
+            <img src="/Images/item-icon.svg" alt="" />
             My Items
           </span>
         </Item>
@@ -38,7 +40,7 @@ const Leftside = (props) => {
         <a>
           <span>
             Events
-            <img src="/images/plus-icon.svg" alt="" />
+            <img src="/Images/plus-icon.svg" alt="" />
           </span>
         </a>
         <a>
@@ -195,8 +197,8 @@ const CommunityCard = styled(ArtCard)`
     }
   }
 `;
-const mapStateToProps = (state) =>{
-  return{
+const mapStateToProps = (state) => {
+  return {
     user: state.userState.user,
   };
 };

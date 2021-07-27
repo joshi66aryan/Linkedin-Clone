@@ -142,7 +142,7 @@ function Login(props) {
       {props.user && <Redirect to="/home" />}
       <Nav>
         <a href="/">
-          <img src="images/login-logo.svg" alt="login-logo" />
+          <img src="Images/login-logo.svg" alt="login-logo" />
         </a>
         <div>
           <Join>Join now</Join>
@@ -152,11 +152,11 @@ function Login(props) {
       <Section>
         <Hero>
           <h1>Welcome to the porfessional community</h1>
-          <img src="images/login-hero.svg" />
+          <img src="Images/login-hero.svg" />
         </Hero>
         <Form>
           <Google onClick={() => props.signIn()}>
-            <img src="images/google.svg" alt="" />
+            <img src="Images/google.svg" alt="" />
             Sign in with Google
           </Google>
         </Form>
