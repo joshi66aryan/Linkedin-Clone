@@ -2,7 +2,7 @@
 
 * Login using Google (Firebase Authentication)
 * Create a new post
-* Share photos and videos (React player for videos)
+* Share photos and videos 
 * Realtime update  posts
 * Auto authenticate user on refresh
 * Sign Out
@@ -25,9 +25,9 @@
 5. Now for hosting on Firebase lets config Firebase locally
 			* Install Firebase CLI
 			* Login to Firebase
-						* firebase login
+			* firebase login
       * Initialize Firebase
-            * firebase init
+            ``` firebase init```
       * Select hosting in the menu
       * Select your respective project from the list
       * Select 'build' as your hosting directory and other options as you want
